@@ -1,0 +1,44 @@
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif
+
+}
+.w3-row-padding img {
+    margin-bottom: 12px;
+   
+
+}
+.bgimg {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('images/-_2022-03-30-ds_lenovo_gt_-_thinkbook-bannerdesktop-1920x654px2.jpg');
+  min-height: 100%;
+}
+
+body{
+    display: flex;
+    justify-content:center;
+    min-height: 100vh;
+    background: rgb(0, 0, 0);
+}
+.h1,h2,h3,h4,h5,h6{
+    color: white;
+}
+h1{
+    color: white;
+}
+
+input[type=submit] {
+    width: 15%;
+    
+    background-color: #f19651;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #E16738;
+  }

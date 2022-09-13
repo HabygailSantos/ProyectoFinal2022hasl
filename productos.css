@@ -1,0 +1,165 @@
+@import url('link href="https://fonts.googleapis.com/css2? display=swap" rel="stylesheet"> familia=Poppins:ital,wght@0,800;1,700;1,900&');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+}
+body{
+    display: flex;
+    justify-content:center;
+    min-height: 100vh;
+    background: rgb(0, 0, 0);
+}
+
+.container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 1200px;
+}
+.container .box{
+    position: relative;
+    width: 300px;
+    height: 400px;
+    margin: 30px;
+    background: rgb(24, 22, 22);
+    border-radius: 20px;
+    border-top: #f0f8ff;
+    transform-style: preserve-3d;
+}
+.container .box::before{
+    content:"LENOVO";
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 3.5em;
+    font-weight: 900;
+    font-style: italic;
+    color: aliceblue;
+    opacity: 0;
+    transform: 0.5s;
+
+}
+.container .box::after{
+    content: "LENOVO";
+    position: absolute;
+    bottom: 28px;
+    right: 30px;
+    font-size: 3.5em;
+    font-weight: 900;
+    color: aliceblue;
+    font-style: italic;
+    opacity: 0;
+    transition: 0.5s;
+   
+}
+.container .box:hover:before,
+.container .box:hover:after{
+    opacity: 0.04;
+
+}
+.container .box .title{
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    color: aliceblue;
+    width: 100%;
+    transform-style: preserve-3d;
+    transform: translate3d(0,0,75px);
+    transition: 0.5s;
+    opacity: 0;
+}
+.container .box:hover .title{
+    top: 15px;
+    opacity: 1;
+}
+.container .box .info{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform-style: preserve-3d;
+    transform: translate3d(-50%,0,75px);
+    color: #f0f8ff;
+    text-decoration: none;
+    background: #333;
+    padding: 10px 25px;
+    border-radius: 25px;
+    transition: 0.5s;
+    opacity: 0;
+
+}
+.container .box:hover .info{
+    bottom: 30px;
+    opacity: 1;
+}
+.container .box .circle{
+position: absolute;
+top: 50%;
+left: 50%;
+width: 200px;
+height: 200px;
+background: aliceblue;
+border-radius: 50%;
+transform-style: preserve-3d;
+transform: translate3d(-50%,-50%,50px);
+}
+.container .box .imgProduct{
+position: absolute;
+top: 50%;
+left: 50%;
+max-width: 170px;
+transform-style: preserve-3d;
+transform: translate3d(-50%,-50%,100px) rotate(0deg);
+}
+.container .box:nth-child(1) .circle,
+.container .box:nth-child(1) .info
+{
+background: skyblue;;
+}
+.container .box:nth-child(2) .circle,
+.container .box:nth-child(2) .info{
+background-color: skyblue;
+}
+.container .box:nth-child(3) .circle,
+.container .box:nth-child(3) .info{
+background-color: skyblue;
+}
+.container .box:nth-child(4) .circle,
+.container .box:nth-child(4) .info{
+background-color: skyblue;
+}
+.container .box:nth-child(5) .circle,
+.container .box:nth-child(5) .info{
+background-color: skyblue;
+}
+.container .box:nth-child(6) .circle,
+.container .box:nth-child(6) .info{
+background-color: skyblue;
+}
+.container .box:nth-child(7) .circle,
+.container .box:nth-child(7) .info{
+background-color: skyblue;
+}
+.container .box:nth-child(8) .circle,
+.container .box:nth-child(8) .info{
+background-color: skyblue;
+}
+.container .box:nth-child(9) .circle,
+.container .box:nth-child(9) .info{
+background-color: skyblue;
+}
+.container .box:nth-child(10) .circle,
+.container .box:nth-child(10) .info{
+background-color: skyblue;
+}
+.container .box:nth-child(11) .circle,
+.container .box:nth-child(11) .info{
+background-color: skyblue;
+}
+.container .box:nth-child(12) .circle,
+.container .box:nth-child(12) .info{
+background-color: skyblue;
+}
